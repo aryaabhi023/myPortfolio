@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="mylogo3.png" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="page-header">
+        <div class="logo">
+          <a href="#"
+            ><img id="logo" class="logo-dark" src="mylogo3.png" alt=""
+          /></a>
+        </div>
+        <input type="checkbox" id="click" />
+
+        <label for="click" class="mainicon">
+          <div class="menu">
+            <i class="bx bx-menu"></i>
+          </div>
+        </label>
+        <ul>
+          <li>
+            <a href="./index.html" style="--navAni: 1">Home</a>
+          </li>
+          <li><a href="./skills.html" style="--navAni: 3">Skills</a></li>
+          <li><a href="./project.html" style="--navAni: 4">Projects</a></li>
+          <li><a href="/" class="active" style="--navAni: 2">About</a></li>
+        </ul>
+        <label class="mode">
+          <input type="checkbox" id="darkModeToggle" />
+          <i class="bx bxs-moon"></i>
+        </label>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="card">
+        <h1>Abhishek Arya</h1>
+        <div id="card-heading">
+          <h3>Enthusiastic Developer</h3>
+          <h3>Creative Writer</h3>
+          <h3>Sports Enthusiast</h3>
+        </div>
+        <div>
+          <p>
+            I am Abhishek Arya, a dedicated and innovative developer pursuing a
+            B.Tech in Computer Science. Driven by a passion for creating
+            impactful digital experiences, I consistently strive for excellence
+            in every project I undertake.
+          </p>
+          <p>
+            Beyond the screen, I'm also a sports enthusiast, proudly
+            representing my state in the Under-14 National Boxing arena and my
+            city in senior-state basketball tournaments. These experiences have
+            instilled in me a deep sense of discipline, teamwork, and a
+            relentless pursuit of personal and collective excellence.
+          </p>
+          <p>
+            I'm not just a coder; I'm also an avid writer. I've penned numerous
+            short stories and heartfelt poems that have touched the lives of
+            many. My words have the power to captivate, inspire, and connect.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <a
+          href="https://github.com/aryaabhi023"
+          target="_blank"
+          style="--socialAni: 3"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/abhishek-arya-b3211220a"
+          target="_blank"
+          style="--socialAni: 1"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/abhishekarya_023/"
+          target="_blank"
+          style="--socialAni: 2"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

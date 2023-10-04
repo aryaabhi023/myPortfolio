@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image" href="mylogo3.png" />
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <div class="page-header">
+        <div class="logo">
+          <a href="#"
+            ><img id="logo" class="logo-dark" src="mylogo3.png" alt=""
+          /></a>
+        </div>
+        <input type="checkbox" id="click" />
+
+        <label for="click" class="mainicon">
+          <div class="menu">
+            <i class="bx bx-menu"></i>
+          </div>
+        </label>
+        <ul>
+          <li>
+            <a href="./index.html" style="--navAni: 1">Home</a>
+          </li>
+          <li><a href="/" class="active" style="--navAni: 3">Skills</a></li>
+          <li><a href="./project.html" style="--navAni: 4">Projects</a></li>
+          <li><a href="./about.html" style="--navAni: 2">About</a></li>
+        </ul>
+        <label class="mode">
+          <input type="checkbox" id="darkModeToggle" />
+          <i class="bx bxs-moon"></i>
+        </label>
+      </div>
+    </header>
+
+    <section class="skills">
+      <h1>Skills</h1>
+      <div class="skill-container">
+        <div class="heading">
+          <h1>Language</h1>
+          <div class="sub-heading">
+            <h5>Javascript</h5>
+            <h5>Python</h5>
+            <h5>C/C++</h5>
+            <h5>Java</h5>
+            <h5>PHP</h5>
+            <h5>SQL</h5>
+          </div>
+        </div>
+        <div class="heading">
+          <h1>Frameworks and Libraries</h1>
+          <div class="sub-heading">
+            <h5>Express JS</h5>
+            <h5>Node JS</h5>
+            <h5>React</h5>
+            <h5>Mongoose</h5>
+          </div>
+        </div>
+        <div class="heading">
+          <h1>Tools</h1>
+          <div class="sub-heading">
+            <h5>MySQL</h5>
+            <h5>MongoDB</h5>
+            <h5>Git</h5>
+            <h5>GitHub</h5>
+            <h5>Postman</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <a
+          href="https://github.com/aryaabhi023"
+          target="_blank"
+          style="--socialAni: 3"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/abhishek-arya-b3211220a"
+          target="_blank"
+          style="--socialAni: 1"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/abhishekarya_023/"
+          target="_blank"
+          style="--socialAni: 2"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
