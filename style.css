@@ -336,6 +336,7 @@ li a:hover {
 .project-container > a {
   text-decoration: none;
   margin: 13px 10px;
+  color: #0f2b3e;
 }
 
 .project-container img {
