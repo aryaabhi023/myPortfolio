@@ -26,8 +26,8 @@ body {
 
 .img_home > img {
   margin-top: 60px;
-  width: 500px;
-  height: 300px;
+  width: 400px;
+  height: 250px;
   border-radius: 10px;
   overflow: hidden;
 }
