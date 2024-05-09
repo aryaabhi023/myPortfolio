@@ -20,6 +20,18 @@ body {
   padding: 0 8.4rem;
 }
 
+.home_container {
+  display: flex;
+}
+
+.img_home > img {
+  margin-top: 60px;
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
 /* Nav */
 header {
   position: relative;
@@ -497,7 +509,18 @@ li a:hover {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+  .home_container {
+    display: block;
+  }
+
+  .img_home {
+    text-align: center;
+  }
+  .img_home img {
+    display: inline-block;
+  }
+
   .container {
     padding: 0 1.6rem;
   }
@@ -518,6 +541,11 @@ li a:hover {
 @media screen and (max-width: 600px) {
   header {
     height: auto;
+  }
+
+  .img_home > img {
+    width: 0px;
+    height: 0px;
   }
 
   ul {
