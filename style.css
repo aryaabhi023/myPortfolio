@@ -21,7 +21,8 @@ body {
 }
 
 .home_container {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .img_home > img {
